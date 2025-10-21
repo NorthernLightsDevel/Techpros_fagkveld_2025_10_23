@@ -169,11 +169,11 @@ style: |
 
 # Sikkerhet
 
-- Sikkerhetshendelser fra i sommer
-- Hva gjør man hvis credentials blir lekket, hvem rapporterer man til og hvilke ting skal man tenke på?
-- Hvilke taktikker bruker ondsinnede aktører for å få deg til å trykke.
-- Bruk av password managers - Bitwarden, 1 pass, etc.
-- E-post spoofing - Nettside-spoofing - eksempler på dette - Gophish
+* Sikkerhetshendelser fra i sommer
+* Hvilke taktikker bruker ondsinnede aktører for å få deg til å trykke.
+* E-post spoofing - Nettside-spoofing - eksempler på dette - Gophish
+* Bruk av password managers - Bitwarden, 1 pass, etc.
+* Hva gjør man hvis credentials blir lekket, hvem rapporterer man til og hvilke ting skal man tenke på?
 
 ---
 
@@ -184,18 +184,60 @@ style: |
 
 ---
 
+# Følelser og tillit - nøkkelen til et vellykket Phising-angrep
+
+* Frykt og hast
+* Fristelser og penger
+* Autoritet og apell
+* Nysgjerrighet
+
+---
+
+# Kamuflasje - Skjulte måter å hente informasjon
+
+* Spoofing av epost, sms eller telefon-nummer.
+* Spoofing kan til og med "være ekte"
+* Sandboxing og løgnaktige lenker
+
+* # Hva er spoofing?
+* Ingen validering på SMTP.
+* Typosquatting
+  * eksempel: rnicrosoft.com og microsoft-login.com (heldigvis legitim)
+* Hyperlink tekst viser en annen tekst enn det lenken er: [https://dnb.no](https://www.hacker-paradise.no/owned)
+* Url-forkortere: bit.ly, tinyurl, shorturl.at
+
+* Kombinert med teknikkene over er det napp å få!
+
+* **Gophish** kan brukes for å lure ansatte. Morsomt verktøy!
+
+* **Hoxhunt** kan brukes for å trene ansatte. Morsomt, men irriterende.
+
+---
+
+# Passordhvelv - Kritisk og et must i en profesjonell setting.
+
+* Ett hovedpassord - hovednøkkel.
+* Sikker lagring
+* Passord-generering
+  * Før hvelvet var "alligator123" utbredt!
+* Automatisk utfylling
+* Synkronisering
+
+* # For å fohindre forutsigbare rotasjoner av passord
+* Om noen finner ut at du brukte passordet "Sommer2024" er du ikke trygg i 2025..
+* Ingen nedskrevne passord
+* Deling og sending av krypterte passord
+
+* **Bitwarden** og **Protonpass** er gode alternativer
+
+* Passordhvelv reduserer dramatisk risikoen for innbrudd. Det er enkelt, men krever litt rutine.
+
+---
 # Hva gjør man hvis noe sikkerhetsrelatert har forekommet
 * Rapporter til nærmeste leder/sikkerhetsavdeling hos kunde hvis det er relevant
 * Rapportere til Malin og/eller Per Øyvind så vi er informert
 * Samarbeid med kunde sin sikkerhetsavdeling for å mitigere trusselen
 * Sørg for å erstatte passord som potensielt er på avveie
-
----
-
-# Passord managere
-* Ikke alle er like sikre
-* Bitwarden og Protonpass er gode alternativer
-* Noen har støtte for automatisk passord endring
 
 ---
 
