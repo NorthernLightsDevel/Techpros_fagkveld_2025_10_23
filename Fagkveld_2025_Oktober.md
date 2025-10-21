@@ -225,6 +225,8 @@ style: |
 * Automatisk utfylling
 * Synkronisering
 
+---
+
 * # For å fohindre forutsigbare rotasjoner av passord
 * Om noen finner ut at du brukte passordet "Sommer2024" er du ikke trygg i 2025..
 * Ingen nedskrevne passord
