@@ -199,6 +199,8 @@ style: |
 * Spoofing kan til og med "være ekte"
 * Sandboxing og løgnaktige lenker
 
+---
+
 * # Hva er spoofing?
 * Ingen validering på SMTP.
 * Typosquatting
