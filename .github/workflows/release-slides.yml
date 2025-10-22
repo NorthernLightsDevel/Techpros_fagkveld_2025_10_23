@@ -1,0 +1,51 @@
+name: Release Slides
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Marp CLI
+        run: npm install --global @marp-team/marp-cli
+
+      - name: Generate PDF
+        run: marp Fagkveld_2025_Oktober.md --pdf --allow-local-files
+
+      - name: Generate PPTX
+        run: marp Fagkveld_2025_Oktober.md --pptx --allow-local-files
+
+      - name: Prepare release metadata
+        id: release_meta
+        run: |
+          TAG="slides-${GITHUB_RUN_NUMBER}"
+          SHA_SHORT="$(echo "$GITHUB_SHA" | cut -c1-7)"
+          NAME="Slides ${GITHUB_RUN_NUMBER} (${SHA_SHORT})"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Publish release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.release_meta.outputs.tag }}
+          name: ${{ steps.release_meta.outputs.name }}
+          files: |
+            Fagkveld_2025_Oktober.pdf
+            Fagkveld_2025_Oktober.pptx
+          fail_on_unmatched_files: true
+          generate_release_notes: true
