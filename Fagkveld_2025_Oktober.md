@@ -169,33 +169,73 @@ style: |
 
 # Sikkerhet
 
-- Sikkerhetshendelser fra i sommer
-- Hva gjør man hvis credentials blir lekket, hvem rapporterer man til og hvilke ting skal man tenke på?
-- Hvilke taktikker bruker ondsinnede aktører for å få deg til å trykke.
-- Bruk av password managers - Bitwarden, 1 pass, etc.
-- E-post spoofing - Nettside-spoofing - eksempler på dette - Gophish
+* Sikkerhetshendelser fra i sommer
+* Hvilke taktikker bruker ondsinnede aktører for å få deg til å trykke?
+* E-post spoofing - Nettside-spoofing - eksempler på dette - Gophish
+* Bruk av password managers - Bitwarden, 1 pass, etc.
+* Hva gjør man hvis credentials blir lekket, hvem rapporterer man til og hvilke ting skal man tenke på?
 
 ---
 
-# Eksempler fra i sommer og høst
+# Sikkerhetshendelser fra i sommer
 - [ KNP Logistics Group](https://thehackernews.com/2025/09/how-one-bad-password-ended-158-year-old.html) - manglende MFA og passordrot ga angripere full tilgang.
 - [Microsoft SharePoint](https://abcnews.go.com/US/microsoft-sharepoint-active-exploitation-dhs-cisa/story?id=123917093) - ga uautentisert tilgang og fjernkjøring av kode mot amerikanske mål.
 - [NPM supply-chain-angrep](https://vercel.com/blog/critical-npm-supply-chain-attack-response-september-8-2025) - avhengighet forsøkte å stjele tokens fra utviklermaskiner.
 
 ---
 
-# Hva gjør man hvis noe sikkerhetsrelatert har forekommet
+# Hvilke taktikker bruker ondsinnede aktører for å få deg til å trykke?
+
+* Frykt og hast
+* Fristelser og penger
+* Autoritet og apell
+* Nysgjerrighet
+
+---
+
+# E-post spoofing - Nettside-spoofing 
+
+* Spoofing av epost, sms eller telefon-nummer.
+* Spoofing kan til og med "være ekte"
+* Sandboxing og løgnaktige lenker
+* # Hva er spoofing?
+* Ingen validering på SMTP.
+* Typosquatting
+  * eksempel: rnicrosoft.com og microsoft-login.com (heldigvis legitim)
+* Hyperlink tekst viser en annen tekst enn det lenken er: [https://dnb.no](https://www.hacker-paradise.no/owned)
+* Url-forkortere: bit.ly, tinyurl, shorturl.at
+* Kombinert med teknikkene over er det napp å få!
+
+---
+# Gophish
+
+* **Gophish** kan brukes for å lure ansatte. Morsomt verktøy!
+
+* **Hoxhunt** kan brukes for å trene ansatte. Morsomt, men irriterende.
+
+---
+
+# Bruk av password managers - Bitwarden, 1 pass, etc.
+
+* Ett hovedpassord - hovednøkkel.
+* Sikker lagring
+* Passord-generering
+  * Før hvelvet var "alligator123" utbredt!
+* Automatisk utfylling
+* Synkronisering
+* Om noen finner ut at du brukte passordet "Sommer2024" er du ikke trygg i 2025..
+* Ingen nedskrevne passord
+* Deling og sending av krypterte passord
+
+* **Bitwarden**, **1pass** og **Protonpass** er gode alternativer
+* Passordhvelv reduserer dramatisk risikoen for innbrudd. Det er enkelt, men krever litt rutine.
+
+---
+# Hva gjør man hvis credentials blir lekket, hvem rapporterer man til og hvilke ting skal man tenke på?
 * Rapporter til nærmeste leder/sikkerhetsavdeling hos kunde hvis det er relevant
 * Rapportere til Malin og/eller Per Øyvind så vi er informert
 * Samarbeid med kunde sin sikkerhetsavdeling for å mitigere trusselen
 * Sørg for å erstatte passord som potensielt er på avveie
-
----
-
-# Passord managere
-* Ikke alle er like sikre
-* Bitwarden og Protonpass er gode alternativer
-* Noen har støtte for automatisk passord endring
 
 ---
 
