@@ -7,6 +7,17 @@ footer: "Fagdag 23. Oktober 2025 - Sikkerhet og AI"
 style: |
   section {
     background: white;
+    position: relative;
+    padding-top: 1.75rem; /* keep content clear of the logo */
+  }
+  section::before {
+    content: "";
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url("./assets/logo.svg") no-repeat center / contain;
   }
   h1, h2, h3 { letter-spacing: 0.02em; }
   .tiny { font-size: 0.8rem; color: #666; }
