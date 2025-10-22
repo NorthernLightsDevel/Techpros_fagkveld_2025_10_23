@@ -182,7 +182,8 @@ style: |
 
 * Sikkerhetshendelser fra i sommer
 * Hvilke taktikker bruker ondsinnede aktører for å få deg til å trykke?
-* E-post spoofing - Nettside-spoofing - eksempler på dette - Gophish
+* E-post spoofing - Nettside-spoofing - eksempler på dette
+* Gophish og annet
 * Bruk av password managers - Bitwarden, 1 pass, etc.
 * Hva gjør man hvis credentials blir lekket, hvem rapporterer man til og hvilke ting skal man tenke på?
 
@@ -218,11 +219,15 @@ style: |
 * Kombinert med teknikkene over er det napp å få!
 
 ---
-# Gophish
 
-* **Gophish** kan brukes for å lure ansatte. Morsomt verktøy!
+# Gophish og annet
+**Gophish** kan brukes for å lure ansatte. Morsomt verktøy!
+![GoPhish Dashboard](https://docs.getgophish.com/user-guide/~gitbook/image?url=https%3A%2F%2F732773220-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LDT_qt7WICxCmlM75gA%252F-LOLuduA5T1_kf4hd_Rk%252F-LOM16w4LVlVfVrIGkB3%252Flocalhost_3333_campaigns_25%28macbook%29.png%3Falt%3Dmedia%26token%3D9632e636-be64-42d9-906d-e783ee984a5a&width=768&dpr=4&quality=100&sign=986f944a&sv=2)
 
-* **Hoxhunt** kan brukes for å trene ansatte. Morsomt, men irriterende.
+---
+
+**Hoxhunt** kan brukes for å trene ansatte.
+![Hoxhunt Dashboard](https://thestartupmag.com/wp-content/uploads/2020/01/image5.png)
 
 ---
 
@@ -234,6 +239,9 @@ style: |
   * Før hvelvet var "alligator123" utbredt!
 * Automatisk utfylling
 * Synkronisering
+
+---
+### Slutt på unødvendig rotering
 * Om noen finner ut at du brukte passordet "Sommer2024" er du ikke trygg i 2025..
 * Ingen nedskrevne passord
 * Deling og sending av krypterte passord
