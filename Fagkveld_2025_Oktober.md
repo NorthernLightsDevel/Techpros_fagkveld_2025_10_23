@@ -250,6 +250,10 @@ Kan f.eks. logge til `PROMPTS.md` og kreve at alle forespørsler logges for spor
 * Synkronisering
 
 ---
+    
+  <img src="https://imgs.xkcd.com/comics/password_strength_2x.png" height="85%">
+
+---
 ## Slutt på unødvendig rotering
 * Om noen finner ut at du brukte passordet "Sommer2024" er du ikke trygg i 2025..
 * Ingen nedskrevne passord
