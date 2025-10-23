@@ -56,25 +56,25 @@ style: |
 ---
 
 # Hva kan jeg bruke AI til?
-- Be om oppsummering av større dokumenter
-- Skrive om tekst til besvarelser
-- Skrive boilerplate-kode for meg
-- Annet?
+* Be om oppsummering av større dokumenter
+* Skrive om tekst til besvarelser
+* Skrive boilerplate-kode for meg
+* Annet?
 
 ---
 
 # Bruk av AI til kodegenerering - Sikkerhet
 
-- AI er trent på alt som finnes tilgjengelig på internett
-- Studentprosjekter
-- Hobbyprosjekter
-- Kodeeksempler som viser deler av fiksen
+* AI er trent på alt som finnes tilgjengelig på internett
+* Studentprosjekter
+* Hobbyprosjekter
+* Kodeeksempler som viser deler av fiksen
 
 ---
 
 # Kodeeksempel fra ChatGPT Codex 
 **Prompt:** Please schaffold a server named TPFagKveld for a fagkveld, add a registration and login page as the first pages.
-* Resultat:
+- Resultat:
   ```typescript
   async function handleLogin(req, res) {
     try {
@@ -92,7 +92,7 @@ style: |
 
 # Kodeeksempel fra ChatGPT Codex 
 **Prompt:** Please change the project to C#, update AGENTS.md as well to notify of this change.
-* Resultat
+- Resultat
   ```csharp
   public Attendee? ValidateCredentials(string email, string password)
   {
@@ -136,8 +136,9 @@ style: |
 # "Remember to make it safe" - ikke en selvfølge.
 
 * AI er trent på all kode som ligger på nett
+  * Eksempler kompromitterer ofte på sikkerhet mot lesbarhet
 * Skiller ikke på sikker og usikker kode
-* Må bevisst be om å gjøre ting sikkert
+* Må være bevisst på å be om å få ting sikkert
 * Bør legge til sikkerhet som del av AGENTS.md
 
 ---
@@ -155,7 +156,8 @@ style: |
 * **Testing og dekning:** Beskriv hvilke tester som finnes, hvor de ligger, og hvilke kvalitetsporter som må passeres.
 * **Sikkerhetskrav:** Dokumenter hvordan passord, nøkler og MFA skal håndteres slik at kritiske mønstre ikke brytes.
 * **Commit/PR-retningslinjer:** Forklar hvordan historikken struktureres, krav til PR-beskrivelser og hvem som må godkjenne.
-* **Promptlogging:** Vis til `PROMPTS.md` og krev at alle forespørsler logges for sporbarhet.
+* **Promptlogging:** Ikke nødvendig, men kjekt for sporbarhet.
+Kan f.eks. logge til `PROMPTS.md` og kreve at alle forespørsler logges for sporbarhet.
 
 ---
 
