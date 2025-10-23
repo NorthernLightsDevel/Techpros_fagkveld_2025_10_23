@@ -237,6 +237,15 @@ Kan f.eks. logge til `PROMPTS.md` og kreve at alle forespørsler logges for spor
 
 ---
 
+# Telefonsamtaler
+* Telefonnummer kan være spoofet
+* Stemme kan være klonet
+  <img src="assets/screenshot_2025-10-23-123715.png" width="500px" />
+* **Demo**
+* Kom og hør ut som Runa
+
+---
+
 # Bruk av password managers - Bitwarden, 1 pass, etc.
 
 * Ett hovedpassord - hovednøkkel.
