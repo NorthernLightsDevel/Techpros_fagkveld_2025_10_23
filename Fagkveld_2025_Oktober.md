@@ -63,15 +63,6 @@ style: |
 
 ---
 
-# Bruk av AI til kodegenerering - Sikkerhet
-
-* AI er trent på alt som finnes tilgjengelig på internett
-* Studentprosjekter
-* Hobbyprosjekter
-* Kodeeksempler som viser deler av fiksen
-
----
-
 # Kodeeksempel fra ChatGPT Codex 
 **Prompt:** Please schaffold a server named TPFagKveld for a fagkveld, add a registration and login page as the first pages.
 - Resultat:
@@ -133,10 +124,12 @@ style: |
 
 ---
 
-# "Remember to make it safe" - ikke en selvfølge.
+# Husk, sikker kode er ikke en selvfølge.
 
-* AI er trent på all kode som ligger på nett
+- AI er trent på all kode som ligger på nett
   * Eksempler kompromitterer ofte på sikkerhet mot lesbarhet
+  * Studentprosjekter
+  * Hobbyprosjekter
 * Skiller ikke på sikker og usikker kode
 * Må være bevisst på å be om å få ting sikkert
 * Bør legge til sikkerhet som del av AGENTS.md
@@ -193,8 +186,8 @@ Kan f.eks. logge til `PROMPTS.md` og kreve at alle forespørsler logges for spor
 
 # Sikkerhetshendelser fra i sommer
 
-- [ KNP Logistics Group](https://thehackernews.com/2025/09/how-one-bad-password-ended-158-year-old.html) - manglende MFA og passordrot ga angripere full tilgang.
-- [NPM supply-chain-angrep](https://vercel.com/blog/critical-npm-supply-chain-attack-response-september-8-2025) - avhengighet forsøkte å stjele tokens fra utviklermaskiner.
+- [ KNP Logistics Group](https://thehackernews.com/2025/09/how-one-bad-password-ended-158-year-old.html) - 158 år gammel bedrift borte
+- [NPM supply-chain-angrep](https://vercel.com/blog/critical-npm-supply-chain-attack-response-september-8-2025) - avhengigheter forsøkte å stjele tokens fra utviklermaskiner.
 
 ---
 
@@ -204,6 +197,7 @@ Kan f.eks. logge til `PROMPTS.md` og kreve at alle forespørsler logges for spor
 * Fristelser og penger
 * Autoritet og apell
 * Nysgjerrighet
+* Annet?
 
 ---
 
@@ -271,6 +265,18 @@ Kan f.eks. logge til `PROMPTS.md` og kreve at alle forespørsler logges for spor
 * Rapportere til Malin og/eller Per Øyvind så vi er informert
 * Samarbeid med kunde sin sikkerhetsavdeling for å mitigere trusselen
 * Sørg for å erstatte passord som potensielt er på avveie
+
+---
+
+# Gruppeinndeling
+
+|Gruppe 1| Gruppe 2| Gruppe 3|
+|--------|---------|---------|
+|Runa    | Malin   | Knut    |
+|Marc    | Brian   | Kejsina |
+|David   |Mateusz  |Mats     |
+|Preben  |Wilhelm  |Andreas  |
+
 
 ---
 
