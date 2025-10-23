@@ -190,8 +190,8 @@ style: |
 ---
 
 # Sikkerhetshendelser fra i sommer
+
 - [ KNP Logistics Group](https://thehackernews.com/2025/09/how-one-bad-password-ended-158-year-old.html) - manglende MFA og passordrot ga angripere full tilgang.
-- [Microsoft SharePoint](https://abcnews.go.com/US/microsoft-sharepoint-active-exploitation-dhs-cisa/story?id=123917093) - ga uautentisert tilgang og fjernkjøring av kode mot amerikanske mål.
 - [NPM supply-chain-angrep](https://vercel.com/blog/critical-npm-supply-chain-attack-response-september-8-2025) - avhengighet forsøkte å stjele tokens fra utviklermaskiner.
 
 ---
@@ -210,7 +210,10 @@ style: |
 * Spoofing av epost, sms eller telefon-nummer.
 * Spoofing kan til og med "være ekte"
 * Sandboxing og løgnaktige lenker
-* # Hva er spoofing?
+
+---
+
+# Hva er spoofing?
 * Ingen validering på SMTP.
 * Typosquatting
   * eksempel: rnicrosoft.com og microsoft-login.com (heldigvis legitim)
@@ -222,12 +225,13 @@ style: |
 
 # Gophish og annet
 **Gophish** kan brukes for å lure ansatte. Morsomt verktøy!
-![GoPhish Dashboard](https://docs.getgophish.com/user-guide/~gitbook/image?url=https%3A%2F%2F732773220-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LDT_qt7WICxCmlM75gA%252F-LOLuduA5T1_kf4hd_Rk%252F-LOM16w4LVlVfVrIGkB3%252Flocalhost_3333_campaigns_25%28macbook%29.png%3Falt%3Dmedia%26token%3D9632e636-be64-42d9-906d-e783ee984a5a&width=768&dpr=4&quality=100&sign=986f944a&sv=2)
+<img src="https://docs.getgophish.com/user-guide/~gitbook/image?url=https%3A%2F%2F732773220-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LDT_qt7WICxCmlM75gA%252F-LOLuduA5T1_kf4hd_Rk%252F-LOM16w4LVlVfVrIGkB3%252Flocalhost_3333_campaigns_25%28macbook%29.png%3Falt%3Dmedia%26token%3D9632e636-be64-42d9-906d-e783ee984a5a&width=768&dpr=4&quality=100&sign=986f944a&sv=2" width="700px" />
 
 ---
 
+# Gophish og annet
 **Hoxhunt** kan brukes for å trene ansatte.
-![Hoxhunt Dashboard](https://thestartupmag.com/wp-content/uploads/2020/01/image5.png)
+<img src="https://thestartupmag.com/wp-content/uploads/2020/01/image5.png" width="600px" />
 
 ---
 
@@ -241,7 +245,7 @@ style: |
 * Synkronisering
 
 ---
-### Slutt på unødvendig rotering
+## Slutt på unødvendig rotering
 * Om noen finner ut at du brukte passordet "Sommer2024" er du ikke trygg i 2025..
 * Ingen nedskrevne passord
 * Deling og sending av krypterte passord
@@ -250,7 +254,8 @@ style: |
 * Passordhvelv reduserer dramatisk risikoen for innbrudd. Det er enkelt, men krever litt rutine.
 
 ---
-# Hva gjør man hvis credentials blir lekket, hvem rapporterer man til og hvilke ting skal man tenke på?
+# Hva gjør man hvis credentials blir lekket?
+**Hvem rapporterer man til og hvilke ting skal man tenke på?**
 * Rapporter til nærmeste leder/sikkerhetsavdeling hos kunde hvis det er relevant
 * Rapportere til Malin og/eller Per Øyvind så vi er informert
 * Samarbeid med kunde sin sikkerhetsavdeling for å mitigere trusselen
@@ -261,17 +266,33 @@ style: |
 # Workshop: Kompromittert repo
 
 **Scenario:**
-Du er ansatt i et selskap, de har nettopp hatt et sikkerhetsbrudd via passordlekasje i et Github repo, Dere har identifisert et angrep på bakgrunn av dette fra Rusland og dere misstenker at de ønsker å få tilgang til samfunnskritisk infrastruktur via angrepet. Hvordan setter du opp en plan for å korrigere og støtte opp dette.
+Du er ansatt i et selskap som nylig har fått et sikkerhetsbrudd via passordlekasje i et GitHub-repo. Angriperne er identifisert og dere mistenker at målet er samfunnskritisk infrastruktur.
+
+**Oppdrag:**
+- Kartlegg hvilke logger og systemer som må gjennomgås for å avdekke skadeomfang.
+- Beskriv strakstiltak og ansvarslinjer som stabiliserer repoet og informerer berørte team.
 
 ---
 
 # Workshop-case: Phishing fra Valdress
 
-- Scenario: målrettet spear phishing mot ledergruppen.
-- Lag handlingsplan med kommunikasjon, isolering og etterarbeid.
+**Scenario:**
+Målrettet spear phishing mot ledergruppen med flere troverdige meldinger som etterspør sensitiv informasjon.
 
-**På norsk:** Vi øver på klare beslutningslinjer når presset er høyt.
-**Viktig:** Husk å koordinere med myndigheter og presseansvarlig.
+**Oppdrag:**
+- Beskriv hvordan dere identifiserer kompromitterte brukere og gjenoppretter sikker kommunikasjon.
+- Lag en plan for kommunikasjon, isolering og etterarbeid som gjenoppretter tilliten i organisasjonen.
+
+---
+
+# Workshop-case: AI-promptlekkasje
+
+**Scenario:**
+Kundesupport-teamet hos kunden dere jobber for har fått en prompt-injeksjon som ressulterte i at en LLM har delt API-nøkler via en chatbot.
+
+**Oppdrag:**
+- Lag en plan for å rotere nøkler og informere berørte kunder.
+- Definer tiltak som hindrer at prompt-injeksjonen lykkes igjen (policy, tooling, opplæring).
 
 ---
 
